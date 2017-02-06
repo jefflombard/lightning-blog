@@ -1,0 +1,66 @@
+38.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WORKFLOW,INFO
+18:01:26.2 (2161206)|USER_INFO|[EXTERNAL]|00541000000QZaN|jefflombardjr@gmail.com|Pacific Standard Time|GMT-08:00
+18:01:26.2 (2202402)|EXECUTION_STARTED
+18:01:26.2 (2208316)|CODE_UNIT_STARTED|[EXTERNAL]|01p4100000GpZyG|blogAPI.getBlogData
+18:01:26.2 (2458842)|HEAP_ALLOCATE|[72]|Bytes:3
+18:01:26.2 (2509340)|HEAP_ALLOCATE|[77]|Bytes:152
+18:01:26.2 (2534814)|HEAP_ALLOCATE|[342]|Bytes:408
+18:01:26.2 (2556044)|HEAP_ALLOCATE|[355]|Bytes:408
+18:01:26.2 (2574969)|HEAP_ALLOCATE|[467]|Bytes:48
+18:01:26.2 (2609143)|HEAP_ALLOCATE|[139]|Bytes:6
+18:01:26.2 (2626433)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+18:01:26.2 (2637399)|METHOD_ENTRY|[1]|01p4100000GpZyG|blogAPI.blogAPI()
+18:01:26.2 (2642565)|STATEMENT_EXECUTE|[1]
+18:01:26.2 (2650367)|STATEMENT_EXECUTE|[1]
+18:01:26.2 (2699188)|HEAP_ALLOCATE|[50]|Bytes:5
+18:01:26.2 (2738064)|HEAP_ALLOCATE|[56]|Bytes:5
+18:01:26.2 (2755238)|HEAP_ALLOCATE|[64]|Bytes:7
+18:01:26.2 (2785151)|SYSTEM_MODE_ENTER|false
+18:01:26.2 (2808892)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+18:01:26.2 (2823971)|SYSTEM_MODE_EXIT|false
+18:01:26.2 (2838775)|METHOD_EXIT|[1]|blogAPI
+18:01:26.2 (2851607)|SYSTEM_MODE_ENTER|false
+18:01:26.2 (2867495)|VARIABLE_SCOPE_BEGIN|[4]|uuid|String|false|false
+18:01:26.2 (2900105)|VARIABLE_ASSIGNMENT|[4]|uuid|null
+18:01:26.2 (2920567)|HEAP_ALLOCATE|[5]|Bytes:5
+18:01:26.2 (2930890)|STATEMENT_EXECUTE|[4]
+18:01:26.2 (2933124)|STATEMENT_EXECUTE|[5]
+18:01:26.2 (2975912)|VARIABLE_SCOPE_BEGIN|[5]|req|System.HttpRequest|true|false
+18:01:26.2 (3119901)|VARIABLE_ASSIGNMENT|[5]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0xc766547
+18:01:26.2 (3128665)|STATEMENT_EXECUTE|[6]
+18:01:26.2 (3134958)|HEAP_ALLOCATE|[6]|Bytes:39
+18:01:26.2 (3162543)|HEAP_ALLOCATE|[6]|Bytes:43
+18:01:26.2 (3482137)|STATEMENT_EXECUTE|[7]
+18:01:26.2 (3488389)|HEAP_ALLOCATE|[7]|Bytes:3
+18:01:26.2 (3519361)|STATEMENT_EXECUTE|[8]
+18:01:26.2 (3539782)|VARIABLE_SCOPE_BEGIN|[8]|http|System.Http|true|false
+18:01:26.2 (3607946)|VARIABLE_ASSIGNMENT|[8]|http|"System.Http[]"|0x28dbc40e
+18:01:26.2 (3612547)|STATEMENT_EXECUTE|[9]
+18:01:26.2 (3675079)|CALLOUT_REQUEST|[9]|System.HttpRequest[Endpoint=http://ui-blog.herokuapp.com/Blog/api/?null, Method=GET]
+18:01:26.2 (13295668)|EXCEPTION_THROWN|[9]|System.CalloutException: Unauthorized endpoint, please check Setup->Security->Remote site settings. endpoint = http://ui-blog.herokuapp.com/Blog/api/?null
+18:01:26.2 (13415165)|HEAP_ALLOCATE|[9]|Bytes:133
+18:01:26.2 (13521364)|FATAL_ERROR|System.CalloutException: Unauthorized endpoint, please check Setup->Security->Remote site settings. endpoint = http://ui-blog.herokuapp.com/Blog/api/?null
+
+Class.blogAPI.getBlogData: line 9, column 1
+18:01:26.2 (13538940)|FATAL_ERROR|System.CalloutException: Unauthorized endpoint, please check Setup->Security->Remote site settings. endpoint = http://ui-blog.herokuapp.com/Blog/api/?null
+
+Class.blogAPI.getBlogData: line 9, column 1
+18:01:26.13 (13549728)|CUMULATIVE_LIMIT_USAGE
+18:01:26.13 (13549728)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 1 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+18:01:26.13 (13549728)|CUMULATIVE_LIMIT_USAGE_END
+
+18:01:26.2 (13600283)|CODE_UNIT_FINISHED|blogAPI.getBlogData
+18:01:26.2 (14830092)|EXECUTION_FINISHED

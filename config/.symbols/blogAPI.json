@@ -1,0 +1,95 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4100000GpZyGAAV",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4100000GpZyGAAV",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getBlogData",
+            "parameters": [
+                {
+                    "name": "uuid",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "blogAPI",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "blogAPI",
+        "references": [],
+        "type": "blogAPI"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "uuid",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "http",
+            "references": [],
+            "type": "Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "HttpResponse"
+        }
+    ]
+}

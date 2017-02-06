@@ -448,15 +448,17 @@
         "mmState": "clean"
     },
     "blogAPI.cls": {
-        "createdById": "00541000000QZaNAAW",
-        "createdByName": "Jeff Lombard",
-        "createdDate": "2017-02-06T01:53:47.000Z",
-        "fileName": "unpackaged/classes/blogAPI.cls",
-        "fullName": "blogAPI",
         "id": "01p4100000GpZyGAAV",
+        "name": "blogAPI",
+        "createdDate": "2017-02-06T01:53:47.000+0000",
+        "createdById": "00541000000QZaNAAW",
+        "namespacePrefix": null,
         "lastModifiedById": "00541000000QZaNAAW",
+        "lastModifiedDate": "2017-02-06T02:14:04.000+0000",
+        "fullName": "blogAPI",
+        "fileName": "unpackaged/classes/blogAPI.cls",
+        "createdByName": "Jeff Lombard",
         "lastModifiedByName": "Jeff Lombard",
-        "lastModifiedDate": "2017-02-06T01:53:47.000Z",
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"

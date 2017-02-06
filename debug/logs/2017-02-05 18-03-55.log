@@ -1,0 +1,69 @@
+38.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WORKFLOW,INFO
+18:03:53.0 (351450)|USER_INFO|[EXTERNAL]|00541000000QZaN|jefflombardjr@gmail.com|Pacific Standard Time|GMT-08:00
+18:03:53.0 (392168)|EXECUTION_STARTED
+18:03:53.0 (396861)|CODE_UNIT_STARTED|[EXTERNAL]|aura
+18:03:53.0 (660806)|HEAP_ALLOCATE|[72]|Bytes:3
+18:03:53.0 (684499)|HEAP_ALLOCATE|[77]|Bytes:152
+18:03:53.0 (699749)|HEAP_ALLOCATE|[342]|Bytes:408
+18:03:53.0 (718825)|HEAP_ALLOCATE|[355]|Bytes:408
+18:03:53.0 (737355)|HEAP_ALLOCATE|[467]|Bytes:48
+18:03:53.0 (760299)|HEAP_ALLOCATE|[139]|Bytes:6
+18:03:53.0 (779278)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:36
+18:03:53.0 (790765)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:36
+18:03:53.0 (2497855)|CODE_UNIT_STARTED|[EXTERNAL]|01p4100000GpZyG|blogAPI.getBlogData
+18:03:53.0 (2600730)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+18:03:53.0 (2617647)|METHOD_ENTRY|[1]|01p4100000GpZyG|blogAPI.blogAPI()
+18:03:53.0 (2622375)|STATEMENT_EXECUTE|[1]
+18:03:53.0 (2629330)|STATEMENT_EXECUTE|[1]
+18:03:53.0 (2673560)|HEAP_ALLOCATE|[50]|Bytes:5
+18:03:53.0 (2703711)|HEAP_ALLOCATE|[56]|Bytes:5
+18:03:53.0 (2721873)|HEAP_ALLOCATE|[64]|Bytes:7
+18:03:53.0 (2744423)|SYSTEM_MODE_ENTER|false
+18:03:53.0 (2756173)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+18:03:53.0 (2762232)|SYSTEM_MODE_EXIT|false
+18:03:53.0 (2769991)|METHOD_EXIT|[1]|blogAPI
+18:03:53.0 (2774183)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:36
+18:03:53.0 (2779035)|SYSTEM_MODE_ENTER|false
+18:03:53.0 (2788151)|VARIABLE_SCOPE_BEGIN|[4]|uuid|String|false|false
+18:03:53.0 (2821461)|VARIABLE_ASSIGNMENT|[4]|uuid|"98454fa8-3738-4e2f-8 (16 more) ..."
+18:03:53.0 (2831541)|HEAP_ALLOCATE|[5]|Bytes:5
+18:03:53.0 (2835213)|STATEMENT_EXECUTE|[4]
+18:03:53.0 (2836572)|STATEMENT_EXECUTE|[5]
+18:03:53.0 (2862530)|VARIABLE_SCOPE_BEGIN|[5]|req|System.HttpRequest|true|false
+18:03:53.0 (3001606)|VARIABLE_ASSIGNMENT|[5]|req|"System.HttpRequest[Endpoint=null, Method=null]"|0x4168ebe2
+18:03:53.0 (3007655)|STATEMENT_EXECUTE|[6]
+18:03:53.0 (3012023)|HEAP_ALLOCATE|[6]|Bytes:39
+18:03:53.0 (3025374)|HEAP_ALLOCATE|[6]|Bytes:75
+18:03:53.0 (3093794)|STATEMENT_EXECUTE|[7]
+18:03:53.0 (3100698)|HEAP_ALLOCATE|[7]|Bytes:3
+18:03:53.0 (3139416)|STATEMENT_EXECUTE|[8]
+18:03:53.0 (3157266)|VARIABLE_SCOPE_BEGIN|[8]|http|System.Http|true|false
+18:03:53.0 (3227954)|VARIABLE_ASSIGNMENT|[8]|http|"System.Http[]"|0x622cdb13
+18:03:53.0 (3232561)|STATEMENT_EXECUTE|[9]
+18:03:53.0 (3304871)|CALLOUT_REQUEST|[9]|System.HttpRequest[Endpoint=http://ui-blog.herokuapp.com/Blog/api/?98454fa8-3738-4e2f-8752-c50a23e79d1a, Method=GET]
+18:03:53.0 (4502971)|EXCEPTION_THROWN|[9]|System.CalloutException: Unauthorized endpoint, please check Setup->Security->Remote site settings. endpoint = http://ui-blog.herokuapp.com/Blog/api/?98454fa8-3738-4e2f-8752-c50a23e79d1a
+18:03:53.0 (4598389)|HEAP_ALLOCATE|[9]|Bytes:165
+18:03:53.0 (4694295)|FATAL_ERROR|System.CalloutException: Unauthorized endpoint, please check Setup->Security->Remote site settings. endpoint = http://ui-blog.herokuapp.com/Blog/api/?98454fa8-3738-4e2f-8752-c50a23e79d1a
+
+Class.blogAPI.getBlogData: line 9, column 1
+18:03:53.0 (4707705)|FATAL_ERROR|System.CalloutException: Unauthorized endpoint, please check Setup->Security->Remote site settings. endpoint = http://ui-blog.herokuapp.com/Blog/api/?98454fa8-3738-4e2f-8752-c50a23e79d1a
+
+Class.blogAPI.getBlogData: line 9, column 1
+18:03:53.4 (4716464)|CUMULATIVE_LIMIT_USAGE
+18:03:53.4 (4716464)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 1 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+18:03:53.4 (4716464)|CUMULATIVE_LIMIT_USAGE_END
+
+18:03:53.0 (4760539)|CODE_UNIT_FINISHED|blogAPI.getBlogData
