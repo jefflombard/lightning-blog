@@ -19,7 +19,7 @@ public with sharing class blogAPI {
         HttpRequest req = new HttpRequest();
     	req.setEndpoint('http://ui-blog.herokuapp.com/Blog/api/?uuid=' + uuid);
         req.setMethod('POST');
-        req.setBody('text='+EncodingUtil.urlEncode(bodyText, 'UTF-8')+"&title"+EncodingUtil.urlEncode(titleText, 'UTF-8'))
+        req.setBody("text="+EncodingUtil.urlEncode(bodyText, "UTF-8")+"&title"+EncodingUtil.urlEncode(titleText, "UTF-8"));
         Http http = new Http();
    		HTTPResponse res = http.send(req);
     	return res.getBody();
