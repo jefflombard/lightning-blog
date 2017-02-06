@@ -26,6 +26,35 @@
             "references": [],
             "returnType": "String",
             "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 14
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newPost",
+            "parameters": [
+                {
+                    "name": "uuid",
+                    "type": "String"
+                },
+                {
+                    "name": "title",
+                    "type": "String"
+                },
+                {
+                    "name": "text",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
         }
     ],
     "name": "blogAPI",
@@ -85,6 +114,72 @@
             "location": {
                 "column": 19,
                 "line": 9
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "uuid",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "title",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "text",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "http",
+            "references": [],
+            "type": "Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 21
             },
             "modifiers": [],
             "name": "res",

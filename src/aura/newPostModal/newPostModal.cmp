@@ -1,4 +1,4 @@
-<aura:component >
+<aura:component controller="blogAPI">
 
 
     <!-- Mark Up -->
@@ -17,11 +17,11 @@
             <div class="slds-form-element">
               <label class="slds-form-element__label" for="title">Post Title</label>
               <div class="slds-form-element__control">
-                <input type="text" id="title" class="slds-input" placeholder="I've found the answer!" />
+                <input type="text" aura:id="title" id="title" class="slds-input" placeholder="Fashion Ideas" />
                 <div class="slds-form-element">
-                  <label class="slds-form-element__label" for="text">Textarea Label</label>
+                  <label class="slds-form-element__label" for="text">Post text</label>
                   <div class="slds-form-element__control">
-                    <textarea id="text" class="slds-textarea" placeholder="the answer to life the universe and everything is 42."></textarea>
+                    <textarea id="text" class="slds-textarea" aura:id="text" placeholder="Suit and Sneakers"></textarea>
                   </div>
                 </div>
               </div>
