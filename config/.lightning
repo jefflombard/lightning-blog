@@ -1,0 +1,36 @@
+[
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad41000000pPe1CAE"
+        },
+        "Id": "0Ad41000000pPe1CAE",
+        "AuraDefinitionBundleId": "0Ab41000000QjfTCAS",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab41000000QjfTCAS"
+            },
+            "DeveloperName": "cmp"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad41000000pPe6CAE"
+        },
+        "Id": "0Ad41000000pPe6CAE",
+        "AuraDefinitionBundleId": "0Ab41000000QjfYCAS",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab41000000QjfYCAS"
+            },
+            "DeveloperName": "app"
+        },
+        "DefType": "APPLICATION",
+        "Format": "XML"
+    }
+]

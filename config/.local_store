@@ -1,0 +1,30 @@
+{
+    "slds02.resource": {
+        "createdById": "00541000000QZaNAAW",
+        "createdByName": "Jeff Lombard",
+        "createdDate": "2016-09-20T18:03:54.000Z",
+        "fileName": "unpackaged/staticresources/slds02.resource",
+        "fullName": "slds02",
+        "id": "08141000000R1j8AAC",
+        "lastModifiedById": "00541000000QZaNAAW",
+        "lastModifiedByName": "Jeff Lombard",
+        "lastModifiedDate": "2016-09-20T18:03:54.000Z",
+        "manageableState": "unmanaged",
+        "type": "StaticResource",
+        "mmState": "clean"
+    },
+    "SLDS2.resource": {
+        "createdById": "00541000000QZaNAAW",
+        "createdByName": "Jeff Lombard",
+        "createdDate": "2016-08-25T01:21:38.000Z",
+        "fileName": "unpackaged/staticresources/SLDS2.resource",
+        "fullName": "SLDS2",
+        "id": "08141000000LltXAAS",
+        "lastModifiedById": "00541000000QZaNAAW",
+        "lastModifiedByName": "Jeff Lombard",
+        "lastModifiedDate": "2016-08-25T01:21:38.000Z",
+        "manageableState": "unmanaged",
+        "type": "StaticResource",
+        "mmState": "clean"
+    }
+}

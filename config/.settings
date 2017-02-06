@@ -1,0 +1,16 @@
+{
+    "projectName": "LightningBlog",
+    "username": "jefflombardjr@gmail.com",
+    "id": "977672e0-ec06-11e6-8696-535877924c69",
+    "namespace": "",
+    "environment": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "/Users/jeffjr/Documents/mavensmate",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
