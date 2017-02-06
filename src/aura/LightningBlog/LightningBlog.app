@@ -13,7 +13,7 @@
         <div class="slds-grid slds-wrap slds-grid--pull-padded">
           <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--4-of-12">
               <!-- Mini Feed -->
-              <c.blogHeader uuid="{!v.uuid}"/>
+              <c.miniFeed uuid="{!v.uuid}"/>
 
           </div>
           <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--5-of-6 slds-large-size--8-of-12">

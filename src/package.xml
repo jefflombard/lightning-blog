@@ -25,6 +25,7 @@
 		<members>blogHeader</members>
 		<members>feedList</members>
 		<members>miniFeed</members>
+		<members>blogPostItem</members>
 		<name>AuraDefinitionBundle</name>
 	</types>
 	<version>34.0</version>

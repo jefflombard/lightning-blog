@@ -3,51 +3,5 @@
     <aura:attribute name="uuid" type="string" default="98454fa8-3738-4e2f-8752-c50a23e79d1a"/>
 
     <!-- Markup -->
-    <div class="slds-feed">
-      <ul class="slds-feed__list">
-        <li class="slds-feed__item">
-          <article class="slds-post">
-            <header class="slds-post__header slds-media">
-              <div class="slds-media__body">
-                <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
-                  <p><a href="javascript:void(0);" title="Jason Rodgers">Jason Rogers</a> — <a href="javascript:void(0);" title="Design Systems">Design Systems</a></p>
-                  <button class="slds-button slds-button--icon-border slds-button--icon-x-small" aria-haspopup="true"
-                    title="More Options">
-                    <lightning:icon class="svgArrow" iconName="utility:chevrondown" size="xx-small"/>
-                    <span class="slds-assistive-text">More Options</span>
-                    </button>
-                </div>
-                <p class="slds-text-body--small"><a href="javascript:void(0);" title="Click for single-item view of this post" class="slds-text-link--reset">5 days Ago</a></p>
-              </div>
-            </header>
-            <div class="slds-post__content slds-text-longform">
-              <p>Hey there! Here&#x27;s the latest demo presentation <a href="javascript:void(0);" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
-            </div>
-            <footer class="slds-post__footer">
-              <ul class="slds-post__footer-actions-list slds-list--horizontal">
-                <li class="slds-col slds-item slds-m-right--medium">
-                  <a href="javascript:void(0);" title="Like this item" class="slds-post__footer-action">
-                      <lightning:icon iconName="utility:like" size="xx-small"/>
-                      Like</a>
-                </li>
-                <li class="slds-col slds-item slds-m-right--medium">
-                  <a href="javascript:void(0);" title="Comment on this item" class="slds-post__footer-action">
-                      <lightning:icon iconName="utility:comments" size="xx-small"/>
-                    Comment</a>
-                </li>
-                <li class="slds-col slds-item slds-m-right--medium">
-                  <a href="javascript:void(0);" title="Share this item" class="slds-post__footer-action">
-                      <lightning:icon iconName="utility:share" size="xx-small"/>
-                    Share</a>
-                </li>
-              </ul>
-              <ul class="slds-post__footer-meta-list slds-list--horizontal slds-has-dividers--right slds-text-title">
-                <li class="slds-item">20 shares</li>
-                <li class="slds-item">259 views</li>
-              </ul>
-            </footer>
-          </article>
-        </li>
-      </ul>
-    </div>
+    <c.blogPostItem />
 </aura:component>

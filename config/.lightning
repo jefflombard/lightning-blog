@@ -410,6 +410,108 @@
     {
         "attributes": {
             "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad41000000ZQhCCAW"
+        },
+        "Id": "0Ad41000000ZQhCCAW",
+        "AuraDefinitionBundleId": "0Ab41000000ITpeCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab41000000ITpeCAG"
+            },
+            "DeveloperName": "blogPostItem"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad41000000ZQhHCAW"
+        },
+        "Id": "0Ad41000000ZQhHCAW",
+        "AuraDefinitionBundleId": "0Ab41000000ITpeCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab41000000ITpeCAG"
+            },
+            "DeveloperName": "blogPostItem"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad41000000ZQgxCAG"
+        },
+        "Id": "0Ad41000000ZQgxCAG",
+        "AuraDefinitionBundleId": "0Ab41000000ITpeCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab41000000ITpeCAG"
+            },
+            "DeveloperName": "blogPostItem"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad41000000ZQhMCAW"
+        },
+        "Id": "0Ad41000000ZQhMCAW",
+        "AuraDefinitionBundleId": "0Ab41000000ITpeCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab41000000ITpeCAG"
+            },
+            "DeveloperName": "blogPostItem"
+        },
+        "DefType": "RENDERER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad41000000ZQh7CAG"
+        },
+        "Id": "0Ad41000000ZQh7CAG",
+        "AuraDefinitionBundleId": "0Ab41000000ITpeCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab41000000ITpeCAG"
+            },
+            "DeveloperName": "blogPostItem"
+        },
+        "DefType": "DOCUMENTATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad41000000ZQh2CAG"
+        },
+        "Id": "0Ad41000000ZQh2CAG",
+        "AuraDefinitionBundleId": "0Ab41000000ITpeCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab41000000ITpeCAG"
+            },
+            "DeveloperName": "blogPostItem"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
             "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad41000000pPe1CAE"
         },
         "Id": "0Ad41000000pPe1CAE",
