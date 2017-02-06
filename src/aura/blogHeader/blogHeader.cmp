@@ -1,0 +1,27 @@
+<aura:component >
+    <!-- Attributes -->
+    <aura:attribute name="uuid" type="string" default="98454fa8-3738-4e2f-8752-c50a23e79d1a"/>
+
+    <!-- Markup -->
+    <div class="slds-page-header">
+      <div class="slds-grid">
+        <div class="slds-col slds-has-flexi-truncate">
+          <div class="slds-media slds-no-space slds-grow">
+            <div class="slds-media__body">
+              <p class="slds-text-title--caps slds-line-height--reset">Lightning</p>
+              <h1 class="slds-page-header__title slds-m-right--small slds-align-middle slds-truncate" title="Blog">Blog</h1>
+            </div>
+          </div>
+        </div>
+        <div class="slds-col slds-no-flex slds-grid slds-align-top">
+          <button class="slds-button slds-button--neutral slds-not-selected" aria-live="assertive">
+            <span class="slds-text-not-selected">
+                <lightning:icon class="svgArrow" iconName="utility:add" size="xx-small"/>
+                New Post</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+</aura:component>

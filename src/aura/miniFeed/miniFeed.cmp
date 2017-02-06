@@ -1,0 +1,12 @@
+<aura:component >
+    <!-- Attributes -->
+    <aura:attribute name="uuid" type="string" default="98454fa8-3738-4e2f-8752-c50a23e79d1a"/>
+
+    <!-- Markup -->
+
+    <ul class="slds-has-dividers--top">
+      <li class="slds-item">List item with top divider</li>
+      <li class="slds-item">List Item</li>
+      <li class="slds-item">List Item</li>
+    </ul>
+</aura:component>
