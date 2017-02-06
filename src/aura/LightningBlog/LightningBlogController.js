@@ -1,4 +1,5 @@
 ({
-	myAction : function(component, event, helper) {
+	loadPosts : function(component, event, helper) {
+        helper.loadPostsHelper(component);
 	}
 })

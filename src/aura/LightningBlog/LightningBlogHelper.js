@@ -1,4 +1,5 @@
 ({
-	helperMethod : function() {
+	loadPostsHelper : function(component) {
+        return null;
 	}
 })

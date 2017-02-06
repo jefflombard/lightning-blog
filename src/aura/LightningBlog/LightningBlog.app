@@ -1,4 +1,7 @@
 <aura:application extends="force:slds">
+    <!-- Init -->
+    <aura:handler name="init" value="{!this}" action="{!c.loadPosts}" />
+
     <!-- Data -->
     <!-- UUID -->
     <aura:attribute name="uuid" type="string" default="98454fa8-3738-4e2f-8752-c50a23e79d1a"/>
