@@ -1,4 +1,4 @@
-<aura:application extends="force:slds">
+<aura:application extends="force:slds" controller="blogAPI">
     <!-- Init -->
     <aura:handler name="init" value="{!this}" action="{!c.loadPosts}" />
 
