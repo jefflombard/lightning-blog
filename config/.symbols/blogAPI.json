@@ -156,8 +156,30 @@
         {
             "annotations": [],
             "location": {
-                "column": 21,
+                "column": 16,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "titleText",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
                 "line": 17
+            },
+            "modifiers": [],
+            "name": "bodyText",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 19
             },
             "modifiers": [],
             "name": "req",
@@ -168,7 +190,7 @@
             "annotations": [],
             "location": {
                 "column": 14,
-                "line": 20
+                "line": 22
             },
             "modifiers": [],
             "name": "http",
@@ -179,7 +201,7 @@
             "annotations": [],
             "location": {
                 "column": 19,
-                "line": 21
+                "line": 23
             },
             "modifiers": [],
             "name": "res",
