@@ -26,6 +26,6 @@
           </div>
         </div>
     </div>
-
+    <c.newPostModal />
 
 </aura:application>
