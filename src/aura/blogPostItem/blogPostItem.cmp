@@ -1,4 +1,10 @@
 <aura:component >
+    <!-- Attributes -->
+    <aura:attribute name="id" type="string"/>
+    <aura:attribute name="text" type="string" default="Dear diary, today I met a fish who could talk."/>
+    <aura:attribute name="timestamp" type="string" default="Tue Jun 29 17:49:27 PST 2010"/>
+    <aura:attribute name="title" type="string" default="A Weird Thing Happened..."/>
+
     <div class="slds-feed">
       <ul class="slds-feed__list">
         <li class="slds-feed__item">
@@ -6,18 +12,28 @@
             <header class="slds-post__header slds-media">
               <div class="slds-media__body">
                 <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
-                  <p><a href="javascript:void(0);" title="Jason Rodgers">Jason Rogers</a> — <a href="javascript:void(0);" title="Design Systems">Design Systems</a></p>
+                  <p>
+                    <a href="javascript:void(0);" title="{!v.title}">
+                        <ui:outputText value="{!v.title}"/>
+                    </a>
+                  </p>
                   <button class="slds-button slds-button--icon-border slds-button--icon-x-small" aria-haspopup="true"
                     title="More Options">
                     <lightning:icon class="svgArrow" iconName="utility:chevrondown" size="xx-small"/>
                     <span class="slds-assistive-text">More Options</span>
                     </button>
                 </div>
-                <p class="slds-text-body--small"><a href="javascript:void(0);" title="Click for single-item view of this post" class="slds-text-link--reset">5 days Ago</a></p>
+                <p class="slds-text-body--small">
+                    <a href="javascript:void(0);" class="slds-text-link--reset">
+                        <ui:outputText value="{!v.timestamp}"/>
+                    </a>
+                </p>
               </div>
             </header>
             <div class="slds-post__content slds-text-longform">
-              <p>Hey there! Here&#x27;s the latest demo presentation <a href="javascript:void(0);" title="Jenna Davis">@Jenna Davis</a>, let me know if there are any changes. I&#x27;ve updated slides 3-8 and slides 16-18 slides with new product shots.</p>
+              <p>
+                  <ui:outputText value="{!v.text}"/>
+              </p>
             </div>
             <footer class="slds-post__footer">
               <ul class="slds-post__footer-actions-list slds-list--horizontal">

@@ -3,7 +3,7 @@
     <!-- UUID -->
     <aura:attribute name="uuid" type="string" default="98454fa8-3738-4e2f-8752-c50a23e79d1a"/>
     <!-- Posts -->
-
+    <aura:attribute name="blogPosts" type="string"/>
 
     <!-- Header -->
     <c.blogHeader uuid="{!v.uuid}"/>
