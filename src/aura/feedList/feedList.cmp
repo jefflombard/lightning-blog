@@ -1,7 +1,11 @@
 <aura:component >
     <!-- Attributes -->
     <aura:attribute name="uuid" type="string" default="98454fa8-3738-4e2f-8752-c50a23e79d1a"/>
+    <aura:attribute name="blogPosts" type="string[]"/>
 
     <!-- Markup -->
-    <c.blogPostItem />
+    <aura:iteration items="{!v.blogPosts}" var="post">
+        <c.blogPostItem id="{!post.id}" text="{!post.text}" timestamp="{!post.timestamp}" title="{!post.title}"/>
+    </aura:iteration>
+
 </aura:component>

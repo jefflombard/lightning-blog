@@ -1,12 +1,14 @@
 <aura:component >
     <!-- Attributes -->
     <aura:attribute name="uuid" type="string" default="98454fa8-3738-4e2f-8752-c50a23e79d1a"/>
+    <aura:attribute name="blogPosts" type="string[]"/>
 
     <!-- Markup -->
-
+    <h2>Posts</h2>
+    <br></br>
     <ul class="slds-has-dividers--top">
-      <li class="slds-item">List item with top divider</li>
-      <li class="slds-item">List Item</li>
-      <li class="slds-item">List Item</li>
+      <aura:iteration items="{!v.blogPosts}" var="post">
+          <li class="slds-item"><ui:outputText value="{!post.title}"/></li>
+      </aura:iteration>
     </ul>
 </aura:component>

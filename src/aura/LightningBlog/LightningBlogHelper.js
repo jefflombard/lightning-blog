@@ -14,9 +14,9 @@
             console.log('state: '+state);
             console.log('response'+response);
 
-            alert(response.getReturnValue());
 
             if(state === "SUCCESS"){
+                component.set("v.blogPosts", JSON.parse(response.getReturnValue()).posts);
             }
         });
         $A.enqueueAction(action);
