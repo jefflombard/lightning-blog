@@ -1,4 +1,5 @@
 ({
-	myAction : function(component, event, helper) {
-	}
+	closeModal : function(component, event, helper) {
+        helper.hideModal(component);
+    }
 })
